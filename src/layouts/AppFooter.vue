@@ -11,10 +11,8 @@
     />
     <p>Released under the MIT License.</p>
     <p class="copyright">
-      Copyright © 2023-present
-      <a href="https://plantree.me" class="link-hover" rel="noopener noreferrer" target="_blank"
-        >Plantree</a
-      >
+      Copyright © 2023-OCR文字识别
+     
     </p>
   </footer>
 </template>
