@@ -73,7 +73,7 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <div class="flex-0">
+     <div class="flex-0">
         <div title="Change Theme" class="dropdown dropdown-end">
           <label tabindex="0" class="btn normal-case btn-ghost">
             <svg
@@ -254,7 +254,23 @@ onMounted(() => {
             </ul>
           </div>
         </div>
-   
+        <span
+          class="tooltip tooltip-bottom before:text-xs before:content-[attr(data-tip)]"
+          data-tip="QQ"
+        >
+          <div class="flex-none items-center group relative">
+            <a
+              aria-label="QQ"
+              target="_blank"
+              href="https://raw.githubusercontent.com/plantree/ocr-pwa/f79a5bd8c56be149f5644c2251841e6100057d6a/public/qrcode.jpeg"
+              rel="noopener, noreferrer"
+              class="btn btn-ghost drawer-button btn-square normal-case"
+            >
+              <QQ />
+            </a>
+          </div>
+        </span>
+        <span
           class="tooltip tooltip-bottom before:text-xs before:content-[attr(data-tip)]"
           data-tip="GitHub"
           data-svelte-h="svelte-j52hjb"
